@@ -1,4 +1,5 @@
-import { useState } from "react";
+
+import React,{ useState } from "react";
 import { ChevronRight, Building2, Home, Users, Shield, Scale, FileText, Briefcase } from "lucide-react";
 import { serviceCategories } from "../types/services";
 

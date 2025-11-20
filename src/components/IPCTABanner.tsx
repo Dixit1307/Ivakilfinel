@@ -1,7 +1,6 @@
 "use client";
 
-import { useState } from "react";
-
+import React,{ useState } from "react";
 export function IPCTABanner() {
   // Form state
   const [name, setName] = useState("");

@@ -1,3 +1,4 @@
+import React from "react";
 import { Microscope, Pill, ShoppingBag, Beaker, Sprout, Code, Heart, Cog } from "lucide-react";
 
 export function IPIndustriesSection() {

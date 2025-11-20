@@ -1,3 +1,4 @@
+import React from "react";
 import { Facebook, Twitter, Youtube, Linkedin, Mail, Phone, MapPin } from "lucide-react";
 
 interface IPPremiumFooterProps {

@@ -1,3 +1,4 @@
+import React from "react";
 import { Card, CardContent } from "./ui/card";
 import { Globe, Users, Award, Briefcase, CheckCircle, TrendingUp } from "lucide-react";
 

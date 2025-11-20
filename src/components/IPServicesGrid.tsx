@@ -1,3 +1,4 @@
+import React from "react";
 import { Card, CardContent } from "./ui/card";
 import { FileText, Award, Palette, Search, TrendingUp, Pill, Gavel, Activity, Paperclip } from "lucide-react";
 import { ipServiceCategories } from "../types/ip-services";

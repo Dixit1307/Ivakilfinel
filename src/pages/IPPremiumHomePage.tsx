@@ -1,3 +1,4 @@
+import React from "react";
 import { IPVideoHeroSection } from "../components/IPVideoHeroSection";
 import { IPAboutSection } from "../components/IPAboutSection";
 import { IPPremiumServices } from "../components/IPPremiumServices";
@@ -32,7 +33,7 @@ export function IPPremiumHomePage({ onNavigate }: IPPremiumHomePageProps) {
       <IPPremiumTestimonials />
 
       {/* CTA Banner */}
-      <IPCTABanner onNavigate={onNavigate} />
+      <IPCTABanner />
     </div>
   );
 }

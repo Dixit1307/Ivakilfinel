@@ -1,3 +1,4 @@
+import React from "react";
 import { Users, RefreshCw, Globe2, Zap, Trophy, Target } from "lucide-react";
 
 export function IPWhyChooseSection() {

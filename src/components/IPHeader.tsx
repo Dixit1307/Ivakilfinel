@@ -3,7 +3,7 @@ import { Menu, ChevronDown, X, Phone } from "lucide-react";
 import { useState, useRef, useEffect } from "react";
 import { IPMegaMenu } from "./IPMegaMenu";
 import { industries } from "../types/ip-services";
-
+import React from "react";
 interface IPHeaderProps {
   onNavigate: (page: string) => void;
   currentPage: string;

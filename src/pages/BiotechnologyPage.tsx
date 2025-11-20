@@ -1,3 +1,4 @@
+import React from "react";
 import { Card, CardContent } from "../components/ui/card";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { Target, Heart, CheckCircle, Users, Clock, Shield } from "lucide-react";

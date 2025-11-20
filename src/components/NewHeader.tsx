@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "./ui/button";
 import { Menu, ChevronDown, X } from "lucide-react";
 import { useState, useRef, useEffect } from "react";

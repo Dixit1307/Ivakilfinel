@@ -1,3 +1,4 @@
+import React from "react";
 import { Calendar, Video, FileCheck } from "lucide-react";
 
 const steps = [

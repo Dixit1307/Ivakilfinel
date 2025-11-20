@@ -1,3 +1,4 @@
+import React from "react";
 import { Award, Globe, Shield, TrendingUp } from "lucide-react";
 import { ImageWithFallback } from "./figma/ImageWithFallback";
 

@@ -1,3 +1,4 @@
+import React from "react";
 import { FileText, Award, Palette, Search, TrendingUp, Pill, Gavel, Activity } from "lucide-react";
 import { ipServiceCategories } from "../types/ip-services";
 

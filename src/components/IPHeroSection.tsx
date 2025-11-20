@@ -1,3 +1,4 @@
+import React from "react";
 import { Button } from "./ui/button";
 import { ArrowRight, Shield, Users, Award, Globe } from "lucide-react";
 

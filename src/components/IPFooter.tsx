@@ -1,5 +1,5 @@
 import { Facebook, Twitter, Youtube, Linkedin, Mail, Phone, MapPin } from "lucide-react";
-
+import React from "react";
 interface IPFooterProps {
   onNavigate: (page: string) => void;
 }

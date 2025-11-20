@@ -1,4 +1,4 @@
-import { useState } from "react";
+import React, { useState } from "react";
 import { IPHeader } from "./components/IPHeader";
 import { IPPremiumFooter } from "./components/IPPremiumFooter";
 import { FloatingConsultButton } from "./components/FloatingConsultButton";
@@ -8,8 +8,7 @@ import { IPCategoryPage } from "./pages/IPCategoryPage";
 import { IPServiceDetailPage } from "./pages/IPServiceDetailPage";
 import { IPPremiumBlogPage } from "./pages/IPPremiumBlogPage";
 import { IPPremiumContactPage } from "./pages/IPPremiumContactPage";
-import { BiotechnologyPage } from "./pages/Biotechnologypage";
-
+import { BiotechnologyPage } from "./pages/BiotechnologyPage";
 
 
 export default function App() {

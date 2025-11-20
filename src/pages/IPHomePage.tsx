@@ -1,3 +1,4 @@
+import React from "react";
 import { IPHeroSection } from "../components/IPHeroSection";
 import { IPServicesGrid } from "../components/IPServicesGrid";
 import { IPWhyChooseUs } from "../components/IPWhyChooseUs";

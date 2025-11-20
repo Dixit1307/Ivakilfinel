@@ -1,3 +1,4 @@
+import React from "react";
 import { MessageSquare, FileText, Briefcase, Shield } from "lucide-react";
 
 const features = [
