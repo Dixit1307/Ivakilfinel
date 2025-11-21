@@ -114,7 +114,7 @@ export function IPCategoryPage({ categorySlug, onNavigate }: IPCategoryPageProps
                   <Check className="w-6 h-6 text-blue-700 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-gray-900 mb-1">Government-Authorized Experts</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       All our patent agents are registered with the Indian Patent Office, ensuring credibility and compliance.
                     </p>
                   </div>
@@ -123,7 +123,7 @@ export function IPCategoryPage({ categorySlug, onNavigate }: IPCategoryPageProps
                   <Check className="w-6 h-6 text-blue-700 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-gray-900 mb-1">Cross-Domain Expertise</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       80+ attorneys, scientists, and tech experts with deep knowledge across industries.
                     </p>
                   </div>
@@ -132,7 +132,7 @@ export function IPCategoryPage({ categorySlug, onNavigate }: IPCategoryPageProps
                   <Check className="w-6 h-6 text-blue-700 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-gray-900 mb-1">Transparent Pricing</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Clear, upfront pricing with no hidden costs. Free patent cost calculator available.
                     </p>
                   </div>
@@ -141,7 +141,7 @@ export function IPCategoryPage({ categorySlug, onNavigate }: IPCategoryPageProps
                   <Check className="w-6 h-6 text-blue-700 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-gray-900 mb-1">Global Reach</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Seamless filing in India, USA, and 153+ countries worldwide.
                     </p>
                   </div>
@@ -154,15 +154,15 @@ export function IPCategoryPage({ categorySlug, onNavigate }: IPCategoryPageProps
               <div className="space-y-6">
                 <div>
                   <div className="text-3xl text-blue-700 mb-2">100+</div>
-                  <p className="text-gray-600">Specialized IP professionals</p>
+                  <p className="text-gray-700">Specialized IP professionals</p>
                 </div>
                 <div>
                   <div className="text-3xl text-blue-700 mb-2">1000+</div>
-                  <p className="text-gray-600">Clients served successfully</p>
+                  <p className="text-gray-700">Clients served successfully</p>
                 </div>
                 <div>
                   <div className="text-3xl text-blue-700 mb-2">24-48h</div>
-                  <p className="text-gray-600">Average response time</p>
+                  <p className="text-gray-700">Average response time</p>
                 </div>
                 <div className="pt-6 border-t border-gray-200">
                   <Button 

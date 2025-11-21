@@ -56,7 +56,7 @@ export function IPServicesGrid({ onNavigate }: IPServicesGridProps) {
                       </div>
                     </div>
                     
-                    <p className="text-gray-600 text-base leading-relaxed mb-5">
+                    <p className="text-gray-700 text-base leading-relaxed mb-5">
                       {category.description}
                     </p>
 

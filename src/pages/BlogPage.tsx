@@ -115,7 +115,7 @@ export function BlogPage() {
                 <h2 className="text-gray-900 mb-4">
                   {blogPosts[0].title}
                 </h2>
-                <p className="text-gray-600 mb-6">
+                <p className="text-gray-700 mb-6">
                   {blogPosts[0].excerpt}
                 </p>
                 <div className="flex items-center gap-6 text-sm text-gray-500 mb-6">
@@ -161,7 +161,7 @@ export function BlogPage() {
                   </CardTitle>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-gray-600 mb-4 line-clamp-3">
+                  <p className="text-gray-700 mb-4 line-clamp-3">
                     {post.excerpt}
                   </p>
                   <div className="flex items-center justify-between text-sm text-gray-500">

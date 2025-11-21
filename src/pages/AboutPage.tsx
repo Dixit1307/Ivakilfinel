@@ -29,10 +29,10 @@ export function AboutPage() {
                 <Target className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-gray-900 mb-4">Our Mission</h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 To democratize access to quality legal services by leveraging technology and connecting clients with verified, experienced lawyers across India.
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-700">
                 We believe that everyone deserves affordable and transparent legal support, whether it's for a simple consultation or complex litigation.
               </p>
             </div>
@@ -41,10 +41,10 @@ export function AboutPage() {
                 <Heart className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-gray-900 mb-4">Our Vision</h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 To become India's most trusted legal-tech platform, where legal help is just a click away, and justice is accessible to all.
               </p>
-              <p className="text-gray-600">
+              <p className="text-gray-700">
                 We envision a future where legal processes are simplified, transparent, and efficient through the power of technology.
               </p>
             </div>
@@ -69,7 +69,7 @@ export function AboutPage() {
                   <Users className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-gray-900 mb-2">Verified Lawyers</h3>
-                <p className="text-gray-600">
+                <p className="text-gray-700">
                   All our lawyers are thoroughly verified with valid bar council registration and years of experience in their respective fields.
                 </p>
               </CardContent>
@@ -81,7 +81,7 @@ export function AboutPage() {
                   <Shield className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-gray-900 mb-2">Confidential & Secure</h3>
-                <p className="text-gray-600">
+                <p className="text-gray-700">
                   Your information is protected with end-to-end encryption. We maintain strict client-lawyer confidentiality as per legal ethics.
                 </p>
               </CardContent>
@@ -93,7 +93,7 @@ export function AboutPage() {
                   <Award className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-gray-900 mb-2">Transparent Pricing</h3>
-                <p className="text-gray-600">
+                <p className="text-gray-700">
                   No hidden charges or surprise fees. All our pricing is upfront and transparent, so you know exactly what you're paying for.
                 </p>
               </CardContent>
@@ -108,13 +108,13 @@ export function AboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-gray-900 mb-6">Our Story</h2>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 iVakil was founded in 2020 with a simple mission: to make legal services accessible to everyone. Our founders, experienced lawyers and tech entrepreneurs, noticed that many people struggled to find reliable legal help when they needed it most.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 Traditional legal services were often expensive, time-consuming, and intimidating. We set out to change that by building a platform that connects clients with verified lawyers through video consultations, transparent pricing, and efficient service delivery.
               </p>
-              <p className="text-gray-600 mb-4">
+              <p className="text-gray-700 mb-4">
                 Today, we've helped over 15,000 clients across India with their legal needs, from simple consultations to complex litigation. Our network of 500+ verified lawyers ensures that you get expert help, no matter what your legal issue is.
               </p>
               <div className="flex items-center gap-8 mt-8">
@@ -179,7 +179,7 @@ export function AboutPage() {
                   <Scale className="w-6 h-6 text-white" />
                 </div>
                 <h3 className="text-gray-900 mb-2">{value.title}</h3>
-                <p className="text-gray-600 text-sm">{value.description}</p>
+                <p className="text-gray-700 text-sm">{value.description}</p>
               </div>
             ))}
           </div>

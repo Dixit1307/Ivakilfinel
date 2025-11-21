@@ -131,10 +131,10 @@ export function IPServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: I
             {/* Main Content */}
             <div className="lg:col-span-2">
               <h2 className="text-gray-900 mb-8">Service Overview</h2>
-              <p className="text-gray-600 mb-7 leading-relaxed text-lg">
+              <p className="text-gray-700 mb-7 leading-relaxed text-lg">
                 {service.fullDescription || service.description}
               </p>
-              <p className="text-gray-600 mb-10 leading-relaxed text-lg">
+              <p className="text-gray-700 mb-10 leading-relaxed text-lg">
                 At iVakil IP, we provide comprehensive support for {service.name.toLowerCase()} that combines technical expertise with legal precision. Our team of government-authorized patent agents and IP professionals ensures that your intellectual property is protected with the highest standards of quality and compliance.
               </p>
 
@@ -165,7 +165,7 @@ export function IPServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: I
                   </div>
                   <div>
                     <h4 className="text-gray-900 mb-1">Initial Consultation</h4>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Schedule a free consultation to discuss your IP needs and innovation goals.
                     </p>
                   </div>
@@ -176,7 +176,7 @@ export function IPServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: I
                   </div>
                   <div>
                     <h4 className="text-gray-900 mb-1">Strategy & Analysis</h4>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Our experts conduct thorough analysis and develop a customized IP strategy for your case.
                     </p>
                   </div>
@@ -187,7 +187,7 @@ export function IPServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: I
                   </div>
                   <div>
                     <h4 className="text-gray-900 mb-1">Execution & Filing</h4>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       We handle all documentation, filing, and regulatory compliance with precision and timeliness.
                     </p>
                   </div>
@@ -196,7 +196,7 @@ export function IPServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: I
 
               <h3 className="text-gray-900 mb-4 mt-8">Required Information</h3>
               <div className="bg-gray-50 rounded-xl p-6">
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-700 mb-4">
                   To provide you with the best service, please have the following information ready:
                 </p>
                 <ul className="space-y-2">
@@ -249,7 +249,7 @@ export function IPServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: I
               <Card className="border-2 border-blue-200 bg-gradient-to-br from-blue-50 to-white">
                 <CardContent className="pt-6">
                   <h3 className="text-gray-900 mb-4">Get Pricing</h3>
-                  <p className="text-gray-600 mb-6">Contact us for customized pricing based on your specific needs</p>
+                  <p className="text-gray-700 mb-6">Contact us for customized pricing based on your specific needs</p>
                   <Button 
                     className="w-full bg-gradient-to-r from-blue-600 to-blue-800 hover:from-blue-700 hover:to-blue-900 mb-3"
                   >

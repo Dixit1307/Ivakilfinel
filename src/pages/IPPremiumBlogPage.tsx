@@ -70,7 +70,7 @@ export function IPPremiumBlogPage() {
           <h1 className="text-gray-900 mb-4 text-4xl sm:text-5xl lg:text-6xl font-semibold">
             IP Insights & Resources
           </h1>
-          <p className="text-gray-600 text-2xl max-w-3xl mx-auto">
+          <p className="text-gray-700 text-2xl max-w-3xl mx-auto">
             Expert guidance on intellectual property strategy, protection, and commercialization
           </p>
         </div>
@@ -103,7 +103,7 @@ export function IPPremiumBlogPage() {
                     {post.title}
                   </h3>
                   
-                  <p className="text-gray-600 mb-6 leading-relaxed">
+                  <p className="text-gray-700 mb-6 leading-relaxed">
                     {post.excerpt}
                   </p>
                   

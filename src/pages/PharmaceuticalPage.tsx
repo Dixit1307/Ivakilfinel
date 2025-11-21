@@ -31,12 +31,22 @@ export function PharmaceuticalPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
                     <div>
                         <h2 className="text-gray-900 mb-6 text-4xl font-bold">Why Intellectual Property Matters in Pharmaceuticals</h2>
-                        <p className="text-gray-600 mb-4 leading-relaxed">
+                        <p className="text-gray-700 mb-4 leading-relaxed"
+                            style={{
+                                textAlign: "justify",
+                                textJustify: "inter-word",
+                                hyphens: "auto"
+                            }}>
                             Pharmaceutical innovations often require years of research, testing, and regulatory clearances before reaching the market.
                             In this high-stakes environment, protecting molecules, compositions, processes, delivery mechanisms, and formulations is essential
                             to secure a competitive edge.
                         </p>
-                        <p className="text-gray-600 leading-relaxed">
+                        <p className="text-gray-700 leading-relaxed"
+                            style={{
+                                textAlign: "justify",
+                                textJustify: "inter-word",
+                                hyphens: "auto"
+                            }}>
                             IP rights form the basis of exclusivity, licensing revenues, and strategic collaborations. Robust IP protection enables sustainable
                             market leadership and returns on innovation.
                         </p>
@@ -45,7 +55,7 @@ export function PharmaceuticalPage() {
                     <div className="relative">
                         <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
                             <ImageWithFallback
-                                src="https://images.unsplash.com/photo-1581092334707-39a79cdcf1da?q=80&w=1080"
+                                src="/Pharmaceuticalservice.jpg"
                                 alt="Pharmaceutical Research"
                                 className="w-full h-full object-cover"
                             />
@@ -107,8 +117,13 @@ export function PharmaceuticalPage() {
                                     <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-blue-600 to-blue-800 mb-4">
                                         <service.icon className="w-6 h-6 text-white" />
                                     </div>
-                                    <h3 className="text-gray-800 font-semibold mb-2">{service.title}</h3>
-                                    <p className="text-gray-600">{service.desc}</p>
+                                    <h3 className="text-gray-900 mb-4 text-xl">{service.title}</h3>
+                                    <p className="text-gray-700"
+                                        style={{
+                                            textAlign: "justify",
+                                            textJustify: "inter-word",
+                                            hyphens: "auto"
+                                        }}>{service.desc}</p>
                                 </CardContent>
                             </Card>
                         ))}
@@ -122,8 +137,13 @@ export function PharmaceuticalPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
                     <Card className="border-2 border-blue-200 bg-white">
                         <CardContent className="pt-8">
-                            <h2 className="text-gray-900 mb-4 text-2xl font-semibold">Who We Serve</h2>
-                            <p className="text-gray-700 leading-relaxed">
+                            <h2 className="text-gray-900 mb-6 text-4xl font-bold">Who We Serve</h2>
+                            <p className="text-gray-700 leading-relaxed"
+                                style={{
+                                    textAlign: "justify",
+                                    textJustify: "inter-word",
+                                    hyphens: "auto"
+                                }}>
                                 Services are designed for pharma innovators, generic manufacturers, biotech firms, and R&D organizations.
                                 Strategies are aligned with product pipelines, markets, and regulatory frameworks.
                             </p>

@@ -16,9 +16,9 @@ export function BiotechnologyPage() {
             </h1>
             <h2 className="text-2xl text-blue-700 mb-6">Protecting Innovation That Saves Lives</h2>
             <p className="text-xl text-gray-600 leading-relaxed">
-              Biotechnology is one of the most innovation-driven industries, where scientific breakthroughs lead 
-              to life-saving therapies, agricultural advancements, and industrial solutions. At iVakil IP, 
-              specialized intellectual property services help biotech innovators protect their discoveries, 
+              Biotechnology is one of the most innovation-driven industries, where scientific breakthroughs lead
+              to life-saving therapies, agricultural advancements, and industrial solutions. At iVakil IP,
+              specialized intellectual property services help biotech innovators protect their discoveries,
               accelerate commercialization, and navigate complex regulatory landscapes.
             </p>
           </div>
@@ -30,13 +30,23 @@ export function BiotechnologyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <div>
             <h2 className="text-gray-900 mb-6 text-4xl font-bold">Why IP Matters in Biotechnology</h2>
-            <p className="text-gray-600 mb-4 leading-relaxed">
-              Biotech R&D requires years of experimentation, regulatory approvals, and significant investment. 
-              Strong IP rights secure proprietary biological materials, genetic sequences, engineered organisms, 
+            <p className="text-gray-700 mb-4 leading-relaxed"
+              style={{
+                textAlign: "justify",
+                textJustify: "inter-word",
+                hyphens: "auto"
+              }}>
+              Biotech R&D requires years of experimentation, regulatory approvals, and significant investment.
+              Strong IP rights secure proprietary biological materials, genetic sequences, engineered organisms,
               therapeutic methods, diagnostic tools, and bio-processes.
             </p>
-            <p className="text-gray-600 leading-relaxed">
-              With well-structured patents and IP assets, biotech companies gain exclusivity, attract investors, 
+            <p className="text-gray-700 leading-relaxed"
+              style={{
+                textAlign: "justify",
+                textJustify: "inter-word",
+                hyphens: "auto"
+              }}>
+              With well-structured patents and IP assets, biotech companies gain exclusivity, attract investors,
               secure licensing opportunities, and strengthen competitive advantage.
             </p>
           </div>
@@ -44,7 +54,7 @@ export function BiotechnologyPage() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1581092334707-39a79cdcf1da?q=80&w=1080"
+                src="/Biotechnologyservice.jpg"
                 alt="Biotechnology Research"
                 className="w-full h-full object-cover"
               />
@@ -58,7 +68,7 @@ export function BiotechnologyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h2 className="text-gray-900 mb-6 text-4xl font-bold">Full-Spectrum IP Services for Biotech Companies</h2>
           <p className="text-xl text-gray-700 mb-6 leading-relaxed max-w-3xl mx-auto">
-            At iVakil IP, comprehensive IP services cover the entire innovation cycle—from concept to commercialization. 
+            At iVakil IP, comprehensive IP services cover the entire innovation cycle—from concept to commercialization.
             Our team unites scientific expertise with legal strategy to ensure biotech inventions are protected globally.
           </p>
         </div>
@@ -106,8 +116,13 @@ export function BiotechnologyPage() {
                   <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-blue-600 to-blue-800 mb-4">
                     <service.icon className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-gray-800 font-semibold mb-2">{service.title}</h3>
-                  <p className="text-gray-600">{service.desc}</p>
+                  <h3 className="text-gray-900 mb-4 text-xl">{service.title}</h3>
+                  <p className="text-gray-700"
+                    style={{
+                      textAlign: "justify",
+                      textJustify: "inter-word",
+                      hyphens: "auto"
+                    }}>{service.desc}</p>
                 </CardContent>
               </Card>
             ))}
@@ -121,10 +136,15 @@ export function BiotechnologyPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <Card className="border-2 border-blue-200 bg-white">
             <CardContent className="pt-8">
-              <h2 className="text-gray-900 mb-4 text-2xl font-semibold">Supporting a Wide Range of Biotech Segments</h2>
-              <p className="text-gray-700 leading-relaxed">
-                iVakil IP supports companies across medical biotechnology, agricultural biotechnology, industrial biotech, 
-                and environmental biotechnology. Whether it’s a startup developing a novel gene therapy or an established 
+              <h2 className="text-gray-900 mb-6 text-4xl font-bold">Supporting a Wide Range of Biotech Segments</h2>
+              <p className="text-gray-700 leading-relaxed"
+                style={{
+                  textAlign: "justify",
+                  textJustify: "inter-word",
+                  hyphens: "auto"
+                }}>
+                iVakil IP supports companies across medical biotechnology, agricultural biotechnology, industrial biotech,
+                and environmental biotechnology. Whether it’s a startup developing a novel gene therapy or an established
                 company creating biosimilars, customized IP strategies align with R&D goals and market requirements.
               </p>
             </CardContent>

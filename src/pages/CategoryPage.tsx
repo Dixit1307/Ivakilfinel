@@ -113,7 +113,7 @@ export function CategoryPage({ categorySlug, onNavigate }: CategoryPageProps) {
                   <Check className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-gray-900 mb-1">Expert Lawyers</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Access to verified lawyers with extensive experience in {category.name.toLowerCase()}.
                     </p>
                   </div>
@@ -122,7 +122,7 @@ export function CategoryPage({ categorySlug, onNavigate }: CategoryPageProps) {
                   <Check className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-gray-900 mb-1">Fast Turnaround</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Quick document preparation and legal consultation available within 24-48 hours.
                     </p>
                   </div>
@@ -131,7 +131,7 @@ export function CategoryPage({ categorySlug, onNavigate }: CategoryPageProps) {
                   <Check className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-gray-900 mb-1">Transparent Pricing</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Clear, upfront pricing with no hidden costs or surprise fees.
                     </p>
                   </div>
@@ -140,7 +140,7 @@ export function CategoryPage({ categorySlug, onNavigate }: CategoryPageProps) {
                   <Check className="w-6 h-6 text-indigo-600 flex-shrink-0 mt-1" />
                   <div>
                     <h3 className="text-gray-900 mb-1">Online Convenience</h3>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Complete consultations and documentation from the comfort of your home.
                     </p>
                   </div>
@@ -153,15 +153,15 @@ export function CategoryPage({ categorySlug, onNavigate }: CategoryPageProps) {
               <div className="space-y-6">
                 <div>
                   <div className="text-3xl text-indigo-600 mb-2">100+</div>
-                  <p className="text-gray-600">Specialized lawyers in this category</p>
+                  <p className="text-gray-700">Specialized lawyers in this category</p>
                 </div>
                 <div>
                   <div className="text-3xl text-indigo-600 mb-2">5,000+</div>
-                  <p className="text-gray-600">Cases handled successfully</p>
+                  <p className="text-gray-700">Cases handled successfully</p>
                 </div>
                 <div>
                   <div className="text-3xl text-indigo-600 mb-2">4.9★</div>
-                  <p className="text-gray-600">Average client rating</p>
+                  <p className="text-gray-700">Average client rating</p>
                 </div>
                 <div className="pt-6 border-t border-gray-200">
                   <Button 

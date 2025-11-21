@@ -57,7 +57,7 @@ export function IPWhyChooseUs() {
                   <reason.icon className="w-7 h-7 text-white" />
                 </div>
                 <h3 className="text-gray-900 mb-4 text-xl">{reason.title}</h3>
-                <p className="text-gray-600 leading-relaxed text-base">
+                <p className="text-gray-700 leading-relaxed text-base">
                   {reason.description}
                 </p>
               </CardContent>

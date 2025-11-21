@@ -91,9 +91,11 @@ export function ContactPage() {
 
                 <div className="space-y-2">
                   <Label htmlFor="service">Service Category</Label>
-                  <Select 
-                    value={formData.service} 
-                    onValueChange={(value) => setFormData({ ...formData, service: value })}
+                  <Select
+                    value={formData.service}
+                    onValueChange={(value: string) =>
+                      setFormData({ ...formData, service: value })
+                    }
                   >
                     <SelectTrigger>
                       <SelectValue placeholder="Select a service category" />
@@ -109,6 +111,7 @@ export function ContactPage() {
                       <SelectItem value="other">Other</SelectItem>
                     </SelectContent>
                   </Select>
+
                 </div>
 
                 <div className="space-y-2">
@@ -123,7 +126,7 @@ export function ContactPage() {
                   />
                 </div>
 
-                <Button 
+                <Button
                   type="submit"
                   size="lg"
                   className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700"

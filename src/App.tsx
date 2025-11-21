@@ -9,7 +9,14 @@ import { IPServiceDetailPage } from "./pages/IPServiceDetailPage";
 import { IPPremiumBlogPage } from "./pages/IPPremiumBlogPage";
 import { IPPremiumContactPage } from "./pages/IPPremiumContactPage";
 import { BiotechnologyPage } from "./pages/BiotechnologyPage";
-
+import { PharmaceuticalPage } from "./pages/PharmaceuticalPage";
+import { FMCGPage } from "./pages/FmcgPage";
+import { ChemicalIndustryPage } from "./pages/ChemicalsPage";
+import { AgrochemicalPage } from "./pages/AgrochemicalPage";
+import { MedicalDevicesPage } from "./pages/MedicalDevicesPage";
+import { FoodDyePigmentPage } from "./pages/FoodDyePigmentPage";
+import { AnimalHealthcarePage } from "./pages/AnimalHealthcarePage";
+import { NutraceuticalsCosmeticsPage } from "./pages/NutraceuticalsCosmeticsPage";  
 
 export default function App() {
   const [currentPage, setCurrentPage] = useState("home");
@@ -18,7 +25,7 @@ export default function App() {
   const handleNavigation = (page: string) => {
     // Parse page navigation
     // Format: "home" | "about" | "category/slug" | "service/categorySlug/serviceSlug" | "blog" | "contact"
-    
+
     if (page.startsWith("category/")) {
       const categorySlug = page.replace("category/", "");
       setCurrentPage("category");
@@ -37,33 +44,71 @@ export default function App() {
   };
 
   const renderPage = () => {
-  switch (currentPage) {
-    case "home":
-      return <IPPremiumHomePage onNavigate={handleNavigation} />;
-    case "about":
-      return <IPAboutPage />;
-    case "category":
-      // If categorySlug is "biotechnology", render the BiotechnologyPage
-      if (pageParams.categorySlug === "biotechnology") {
-        return <BiotechnologyPage />;
-      }
-      return <IPCategoryPage categorySlug={pageParams.categorySlug} onNavigate={handleNavigation} />;
-    case "service":
-      return (
-        <IPServiceDetailPage
-          categorySlug={pageParams.categorySlug}
-          serviceSlug={pageParams.serviceSlug}
-          onNavigate={handleNavigation}
-        />
-      );
-    case "blog":
-      return <IPPremiumBlogPage />;
-    case "contact":
-      return <IPPremiumContactPage />;
-    default:
-      return <IPPremiumHomePage onNavigate={handleNavigation} />;
-  }
-};
+    switch (currentPage) {
+      case "home":
+        return <IPPremiumHomePage onNavigate={handleNavigation} />;
+      case "about":
+        return <IPAboutPage />;
+      case "category":
+        if (pageParams.categorySlug === "biotechnology") {
+          return <BiotechnologyPage />;
+        }
+
+        if (pageParams.categorySlug === "pharmaceuticals") {
+          return <PharmaceuticalPage />;
+        }
+
+        if (pageParams.categorySlug === "fmcg") {
+          return <FMCGPage />;
+        }
+
+        if (pageParams.categorySlug === "chemicals") {
+          return <ChemicalIndustryPage />;
+        }
+
+        if (pageParams.categorySlug === "agrochemical") {
+          return <AgrochemicalPage />;
+        }
+
+        if (pageParams.categorySlug === "medical-devices") {
+          return <MedicalDevicesPage />;
+        }
+
+        if (pageParams.categorySlug === "food-dye-pigment") {
+          return <FoodDyePigmentPage />;
+        }
+
+        if (pageParams.categorySlug === "animal-healthcare") {
+          return <AnimalHealthcarePage />;
+        }
+
+        if (pageParams.categorySlug === "nutraceuticals-cosmetics") {
+          return <NutraceuticalsCosmeticsPage />;
+        }
+
+        return (
+          <IPCategoryPage
+            categorySlug={pageParams.categorySlug}
+            onNavigate={handleNavigation}
+          />
+        );
+
+      case "service":
+        return (
+          <IPServiceDetailPage
+            categorySlug={pageParams.categorySlug}
+            serviceSlug={pageParams.serviceSlug}
+            onNavigate={handleNavigation}
+          />
+        );
+      case "blog":
+        return <IPPremiumBlogPage />;
+      case "contact":
+        return <IPPremiumContactPage />;
+      default:
+        return <IPPremiumHomePage onNavigate={handleNavigation} />;
+    }
+  };
 
 
   return (

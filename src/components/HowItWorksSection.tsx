@@ -58,7 +58,7 @@ export function HowItWorksSection() {
                 <h3 className="text-gray-900 mb-3">
                   {step.title}
                 </h3>
-                <p className="text-gray-600">
+                <p className="text-gray-700">
                   {step.description}
                 </p>
               </div>

@@ -34,20 +34,35 @@ export function IPAboutSection() {
         <div className="grid lg:grid-cols-2 gap-14 items-center">
 
           {/* LEFT CONTENT (FULL HEIGHT MATCHES IMAGE) */}
-          <div className="flex flex-col justify-center h-full">
-            <h2 className="text-gray-900 mb-6 text-4xl font-bold">
+          <div className="flex flex-col justify-center h-full mr-2">
+            <h2 className="text-gray-900 mb-6 text-4xl font-bold"
+              style={{
+                textAlign: "justify",
+                textJustify: "inter-word",
+                hyphens: "auto"
+              }}>
               A Trusted Name in IP Services in India
             </h2>
 
-            <p className="text-gray-700 text-xl mb-6 leading-relaxed">
+            <p className="text-gray-700 text-xl mb-6 leading-relaxed mr-2"
+              style={{
+                textAlign: "justify",
+                textJustify: "inter-word",
+                hyphens: "auto"
+              }}>
               At iVakil IP, we don't just protect ideas — we transform them into strategic assets.
             </p>
 
-            <p className="text-gray-700 text-lg leading-relaxed">
-              Our clients span diverse domains—from pharmaceuticals and biotechnology 
-              to software, mechanical engineering, electronics, and healthcare. 
-              Every IP portfolio we manage is crafted to enhance competitive edge, 
-              reduce legal exposure, and unlock opportunities for growth, licensing, 
+            <p className="text-gray-700 text-lg leading-relaxed mr-2"
+              style={{
+                textAlign: "justify",
+                textJustify: "inter-word",
+                hyphens: "auto"
+              }}>
+              Our clients span diverse domains—from pharmaceuticals and biotechnology
+              to software, mechanical engineering, electronics, and healthcare.
+              Every IP portfolio we manage is crafted to enhance competitive edge,
+              reduce legal exposure, and unlock opportunities for growth, licensing,
               and investment.
             </p>
           </div>
@@ -81,7 +96,7 @@ export function IPAboutSection() {
                   <h4 className="text-gray-900 text-lg font-semibold mb-1">
                     {item.title}
                   </h4>
-                  <p className="text-gray-600 text-sm">
+                  <p className="text-gray-700 text-sm">
                     {item.description}
                   </p>
                 </div>

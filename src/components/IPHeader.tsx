@@ -4,6 +4,7 @@ import { useState, useRef, useEffect } from "react";
 import { IPMegaMenu } from "./IPMegaMenu";
 import { industries } from "../types/ip-services";
 import React from "react";
+
 interface IPHeaderProps {
   onNavigate: (page: string) => void;
   currentPage: string;
@@ -42,15 +43,14 @@ export function IPHeader({ onNavigate, currentPage }: IPHeaderProps) {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex items-center justify-between h-20">
           {/* Logo */}
-          <button onClick={() => handleNavigation("home")} className="flex items-center gap-3">
-            <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-lg flex items-center justify-center text-white">
-              <span className="text-base">iV</span>
-            </div>
-            <div className="flex flex-col items-start">
-              <span className="text-2xl text-gray-900 leading-tight">iVakil IP</span>
-              <span className="text-sm text-gray-500 leading-tight">Care For Innovation</span>
-            </div>
+          <button onClick={() => handleNavigation("home")} className="flex items-center">
+            <img
+              src="/ivakillogo.png"
+              alt="iVakil Logo"
+              className="w-30 h-16 object-contain"
+            />
           </button>
+
 
           {/* Desktop Navigation */}
           <nav className="hidden lg:flex items-center gap-8 text-base">
@@ -192,7 +192,7 @@ export function IPHeader({ onNavigate, currentPage }: IPHeaderProps) {
               >
                 Contact
               </button>
-              <Button className="bg-gradient-to-r from-orange-500 to-red-600 hover:from-orange-600 hover:to-red-700 text-white">
+              <Button className="bg-gradient-to-r from-orange to-red-600 hover:from-orange-600 hover:to-red-700 text-white">
                 Free Consultation
               </Button>
             </div>

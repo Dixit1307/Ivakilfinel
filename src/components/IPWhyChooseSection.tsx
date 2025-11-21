@@ -75,7 +75,12 @@ export function IPWhyChooseSection() {
                   {feature.title}
                 </h3>
 
-                <p className="text-gray-600 leading-relaxed text-justify">
+                <p className="text-gray-700 leading-relaxed text-justify"
+                  style={{
+                    textAlign: "justify",
+                    textJustify: "inter-word",
+                    hyphens: "auto"
+                  }}>
                   {feature.description}
                 </p>
               </div>

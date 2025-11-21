@@ -131,7 +131,7 @@ export function ServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: Ser
             {/* Main Content */}
             <div className="lg:col-span-2">
               <h2 className="text-gray-900 mb-6">Service Overview</h2>
-              <p className="text-gray-600 mb-6">
+              <p className="text-gray-700 mb-6">
                 Our {service.name.toLowerCase()} service provides comprehensive legal support tailored to your specific needs. 
                 We understand that legal matters can be complex and stressful, which is why our expert lawyers are here to 
                 guide you through every step of the process.
@@ -164,7 +164,7 @@ export function ServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: Ser
                   </div>
                   <div>
                     <h4 className="text-gray-900 mb-1">Book Your Consultation</h4>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Schedule a convenient time slot and provide basic details about your case.
                     </p>
                   </div>
@@ -175,7 +175,7 @@ export function ServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: Ser
                   </div>
                   <div>
                     <h4 className="text-gray-900 mb-1">Connect with Expert Lawyer</h4>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Meet with a verified lawyer via video call to discuss your legal matter in detail.
                     </p>
                   </div>
@@ -186,7 +186,7 @@ export function ServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: Ser
                   </div>
                   <div>
                     <h4 className="text-gray-900 mb-1">Get Documents & Support</h4>
-                    <p className="text-gray-600">
+                    <p className="text-gray-700">
                       Receive professionally drafted documents and ongoing legal support for your case.
                     </p>
                   </div>
@@ -195,7 +195,7 @@ export function ServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: Ser
 
               <h3 className="text-gray-900 mb-4 mt-8">Required Documents</h3>
               <div className="bg-gray-50 rounded-xl p-6">
-                <p className="text-gray-600 mb-4">
+                <p className="text-gray-700 mb-4">
                   To provide you with the best service, please keep the following documents ready:
                 </p>
                 <ul className="space-y-2">
@@ -249,7 +249,7 @@ export function ServiceDetailPage({ categorySlug, serviceSlug, onNavigate }: Ser
                 <CardContent className="pt-6">
                   <h3 className="text-gray-900 mb-4">Pricing</h3>
                   <div className="text-3xl text-indigo-600 mb-2">₹999</div>
-                  <p className="text-gray-600 mb-6">Starting from (consultation)</p>
+                  <p className="text-gray-700 mb-6">Starting from (consultation)</p>
                   <Button 
                     className="w-full bg-gradient-to-r from-indigo-600 to-purple-600 hover:from-indigo-700 hover:to-purple-700"
                   >

@@ -118,7 +118,7 @@ export function IPPremiumContactPage() {
                       </div>
                       <div>
                         <h3 className="text-gray-900 mb-2 text-lg">Office Address</h3>
-                        <p className="text-gray-600 leading-relaxed">
+                        <p className="text-gray-700 leading-relaxed">
                           30B Haridarshan Villa, Radhe Park<br />
                           Navsari, Gujarat – 396445<br />
                           India
@@ -170,7 +170,7 @@ export function IPPremiumContactPage() {
                 </Card>
                 <div className="mt-8 p-8 bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl border-2 border-red-200">
                   <h3 className="text-gray-900 mb-3 text-xl">Need Immediate Assistance?</h3>
-                  <p className="text-gray-600 mb-5">
+                  <p className="text-gray-700 mb-5">
                     Book a free consultation call with our IP experts
                   </p>
                   <Button

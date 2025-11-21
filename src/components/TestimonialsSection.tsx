@@ -58,7 +58,7 @@ export function TestimonialsSection() {
                   ))}
                 </div>
 
-                <p className="text-gray-600 mb-6 line-clamp-4">
+                <p className="text-gray-700 mb-6 line-clamp-4">
                   "{testimonial.content}"
                 </p>
 

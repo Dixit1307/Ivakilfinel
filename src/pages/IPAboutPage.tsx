@@ -26,10 +26,20 @@ export function IPAboutPage() {
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
               <h2 className="text-gray-900 mb-6 text-4xl font-bold">Who We Are</h2>
-              <p className="text-gray-600 mb-4 leading-relaxed">
+              <p className="text-gray-700 mb-4 leading-relaxed"
+                style={{
+                  textAlign: "justify",
+                  textJustify: "inter-word",
+                  hyphens: "auto"
+                }}>
                 iVakil IP is an intellectual property consulting firm specializing in high-precision legal and strategic services for patents, trademarks, industrial designs, and IP-driven business strategies. With deep expertise across science, law, technology, and market research, every engagement is backed by thorough knowledge and actionable insight.
               </p>
-              <p className="text-gray-600 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed"
+                style={{
+                  textAlign: "justify",
+                  textJustify: "inter-word",
+                  hyphens: "auto"
+                }}>
                 From startups building their first portfolio to global companies seeking regulatory clarity or competitive intelligence, iVakil IP delivers customized solutions that match real-world needs with legal excellence.
               </p>
             </div>
@@ -53,7 +63,7 @@ export function IPAboutPage() {
           <p className="text-xl text-gray-700 mb-4 leading-relaxed">
             Every innovation deserves to be protected. Every business deserves to compete fairly. Every idea has the power to change the world—when it’s guided by the right strategy.
           </p>
-          <p className="text-gray-600 leading-relaxed max-w-3xl mx-auto">
+          <p className="text-gray-700 leading-relaxed max-w-3xl mx-auto">
             iVakil IP was founded with a clear vision: to simplify intellectual property and turn it into a valuable, working tool for creators, entrepreneurs, researchers, and corporates. What began as a specialized IP support venture has now grown into a trusted consulting brand with a strong reputation for quality, ethics, and strategic depth.
           </p>
         </div>
@@ -96,8 +106,13 @@ export function IPAboutPage() {
                   <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-blue-600 to-blue-800 mb-4">
                     <item.icon className="w-6 h-6 text-white" />
                   </div>
-                  <h3 className="text-gray-700 leading-relaxed mb-2 font-semibold">{item.title}</h3>
-                  <p className="text-gray-600">{item.description}</p>
+                  <h3 className="text-gray-900 mb-4 text-xl font-semibold">{item.title}</h3>
+                  <p className="text-gray-700"
+                    style={{
+                      textAlign: "justify",
+                      textJustify: "inter-word",
+                      hyphens: "auto"
+                    }}>{item.description}</p>
                 </CardContent>
               </Card>
             ))}
@@ -114,7 +129,12 @@ export function IPAboutPage() {
                 <Heart className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-gray-900 mb-4 text-xl font-semibold">Our Vision</h2>
-              <p className="text-gray-700 leading-relaxed">
+              <p className="text-gray-700 leading-relaxed"
+                style={{
+                  textAlign: "justify",
+                  textJustify: "inter-word",
+                  hyphens: "auto"
+                }}>
                 To be the most trusted intellectual property consulting partner for innovation-led businesses by delivering solutions that combine legal strength, technical depth, and business intelligence.
               </p>
             </CardContent>
@@ -126,7 +146,12 @@ export function IPAboutPage() {
                 <Target className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-gray-900 mb-4 text-xl font-semibold">Our Mission</h2>
-              <ul className="space-y-3 text-gray-700">
+              <ul className="space-y-3 text-gray-700"
+                style={{
+                  textAlign: "justify",
+                  textJustify: "inter-word",
+                  hyphens: "auto"
+                }}>
                 <li>To simplify IP for innovators and make protection accessible and valuable.</li>
                 <li>To help businesses convert ideas into assets with the right strategies.</li>
                 <li>To support compliance, growth, and market expansion through expert IP services.</li>

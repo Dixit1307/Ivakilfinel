@@ -14,7 +14,7 @@ export function IPVideoHeroSection({ onNavigate }: IPVideoHeroSectionProps) {
         className="absolute inset-0 w-full h-full bg-cover bg-center"
         style={{
           backgroundImage:
-            "url('https://images.unsplash.com/photo-1758518731462-d091b0b4ed0d?auto=format&fit=crop&w=1200&q=80')",
+            "url('/Homepage.png')",
         }}
       />
 

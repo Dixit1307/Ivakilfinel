@@ -75,7 +75,7 @@ export function MegaMenu({ onNavigate, onClose }: MegaMenuProps) {
                         <h3 className="text-xl text-gray-900 mb-2">
                           {category.name}
                         </h3>
-                        <p className="text-gray-600">{category.description}</p>
+                        <p className="text-gray-700">{category.description}</p>
                       </div>
                       <div className="grid md:grid-cols-2 gap-4">
                         {category.services.map((service) => (

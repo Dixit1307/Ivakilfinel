@@ -27,9 +27,10 @@ export const industries: Industry[] = [
   { name: "FMCG", slug: "fmcg" },
   { name: "Chemicals", slug: "chemicals" },
   { name: "Agrochemical", slug: "agrochemical" },
-  { name: "Software & IT", slug: "software-it" },
+  { name: "Animal Healthcare", slug: "animal-healthcare" },
   { name: "Medical Devices", slug: "medical-devices" },
-  { name: "Engineering", slug: "engineering" },
+  { name: "Nutraceuticals & Cosmetics", slug: "nutraceuticals-cosmetics" },
+  { name: "Food, Dye & Pigment", slug: "food-dye-pigment" },
 ];
 
 

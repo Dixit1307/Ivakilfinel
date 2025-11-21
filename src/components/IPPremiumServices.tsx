@@ -1,13 +1,13 @@
 import React from "react";
 import { Card, CardContent } from "./ui/card";
-import { 
-  FileText, 
-  Scale, 
-  Palette, 
-  Lightbulb, 
-  Search, 
-  Gavel, 
-  ArrowRight 
+import {
+  FileText,
+  Scale,
+  Palette,
+  Lightbulb,
+  Search,
+  Gavel,
+  ArrowRight
 } from "lucide-react";
 
 interface IPPremiumServicesProps {
@@ -119,13 +119,21 @@ export function IPPremiumServices({ onNavigate }: IPPremiumServicesProps) {
 
                     {/* Text */}
                     <div className="flex-1">
-                      <h3 className="text-gray-900 mb-3 text-2xl group-hover:text-red-700 transition-colors font-semibold">
+                      <h3 className="text-gray-800 mb-3 text-2xl group-hover:text-red-700 transition-colors font-semibold">
                         {service.title}
                       </h3>
 
-                      <p className="text-gray-700 mb-4 leading-relaxed text-base text-justify">
+                      <p
+                        className="text-gray-700 mb-4 leading-relaxed text-base"
+                        style={{
+                          textAlign: "justify",
+                          textJustify: "inter-word",
+                          hyphens: "auto"
+                        }}
+                      >
                         {service.description}
                       </p>
+
 
                       <button className="flex items-center gap-2 text-red-600 group-hover:gap-4 transition-all duration-300 text-base font-medium">
                         Learn More
