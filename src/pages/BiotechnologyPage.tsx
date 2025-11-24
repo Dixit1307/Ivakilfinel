@@ -29,23 +29,17 @@ export function BiotechnologyPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
           <div>
-            <h2 className="text-gray-900 mb-6 text-4xl font-bold">Why IP Matters in Biotechnology</h2>
+            <h2 className="text-gray-900 mb-6 text-4xl font-bold text-center">Why IP Matters in Biotechnology</h2>
             <p className="text-gray-700 mb-4 leading-relaxed"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               Biotech R&D requires years of experimentation, regulatory approvals, and significant investment.
               Strong IP rights secure proprietary biological materials, genetic sequences, engineered organisms,
               therapeutic methods, diagnostic tools, and bio-processes.
             </p>
             <p className="text-gray-700 leading-relaxed"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               With well-structured patents and IP assets, biotech companies gain exclusivity, attract investors,
               secure licensing opportunities, and strengthen competitive advantage.
             </p>

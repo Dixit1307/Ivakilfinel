@@ -31,16 +31,13 @@ export function FoodDyePigmentPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
 
           <div>
-            <h2 className="text-gray-900 mb-6 text-4xl font-bold">
+            <h2 className="text-gray-900 mb-6 text-4xl font-bold text-center">
               Importance of IP Services
             </h2>
 
             <p className="text-gray-700 mb-4 leading-relaxed"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               Innovation in the food, dye, and pigment industries demands years of research and investment. Without strong IP protection, these efforts risk being copied or misused. Intellectual property helps secure exclusivity, build brand value, attract partnerships, and support global expansion. iVakil IP ensures these benefits through focused, strategic IP solutions.
             </p>
           </div>
@@ -48,7 +45,7 @@ export function FoodDyePigmentPage() {
           <div className="relative">
             <div className="aspect-[4/3] rounded-2xl overflow-hidden shadow-2xl">
               <ImageWithFallback
-                src="https://images.unsplash.com/photo-1504674900247-0877df9cc836?q=80&w=1080"
+                src="/Fooddyepigment.jpg"
                 alt="Food, Dye & Pigment Industry"
                 className="w-full h-full object-cover"
               />

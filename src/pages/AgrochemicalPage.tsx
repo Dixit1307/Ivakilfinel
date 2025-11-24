@@ -31,16 +31,13 @@ export function AgrochemicalPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
 
           <div>
-            <h2 className="text-gray-900 mb-6 text-4xl font-bold">
+            <h2 className="text-gray-900 mb-6 text-4xl font-bold text-center">
               Understanding the Agrochemical Sector
             </h2>
 
             <p className="text-gray-700 mb-4 leading-relaxed"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               Agrochemicals include a wide range of chemical products used in agriculture to enhance crop yield and quality. These include Pesticides, Fertilizers, Plant Growth Regulators, and Soil Conditioners. Innovations in agrochemicals are highly technical and regulated. Whether it's developing new active ingredients or formulating safer, eco-friendly alternatives, protection through patents, trade secrets, and regulatory exclusivity is crucial.
             </p>
           </div>

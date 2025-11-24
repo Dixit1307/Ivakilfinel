@@ -2,44 +2,31 @@ import React from "react";
 import { Card, CardContent } from "../components/ui/card";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { Target, Heart, CheckCircle, Users, Clock, Shield } from "lucide-react";
-
 export function IPAboutPage() {
   return (
     <div className="min-h-screen bg-white">
-
       {/* Hero Section */}
-      <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-20">
+      <section className="py-20 bg-gradient-to-br from-orange-50 via-white to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="text-center max-w-4xl mx-auto">
             <h1 className="text-gray-900 mb-4 text-4xl sm:text-5xl lg:text-6xl font-semibold">About iVakil IP</h1>
-            <h2 className="text-2xl text-blue-700 mb-6">Where Ideas Meet Protection and Strategy</h2>
+            <h2 className="text-2xl text-red-600 mb-6">Where Ideas Meet Protection and Strategy</h2>
             <p className="text-xl text-gray-600 leading-relaxed">
               Innovation begins with an idea—but success begins with protection. At iVakil IP, the mission is simple: empower creators, businesses, and visionaries by transforming their intellectual property into strategic assets that fuel long-term growth, security, and market leadership.
             </p>
           </div>
         </div>
       </section>
-
       {/* Who We Are */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid lg:grid-cols-2 gap-12 items-center">
             <div>
-              <h2 className="text-gray-900 mb-6 text-4xl font-bold">Who We Are</h2>
-              <p className="text-gray-700 mb-4 leading-relaxed"
-                style={{
-                  textAlign: "justify",
-                  textJustify: "inter-word",
-                  hyphens: "auto"
-                }}>
+              <h2 className="text-gray-900 text-4xl font-bold mb-6 text-center">Who We Are</h2>
+              <p className="text-gray-700 mb-4 leading-relaxed" style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}>
                 iVakil IP is an intellectual property consulting firm specializing in high-precision legal and strategic services for patents, trademarks, industrial designs, and IP-driven business strategies. With deep expertise across science, law, technology, and market research, every engagement is backed by thorough knowledge and actionable insight.
               </p>
-              <p className="text-gray-700 leading-relaxed"
-                style={{
-                  textAlign: "justify",
-                  textJustify: "inter-word",
-                  hyphens: "auto"
-                }}>
+              <p className="text-gray-700 leading-relaxed" style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}>
                 From startups building their first portfolio to global companies seeking regulatory clarity or competitive intelligence, iVakil IP delivers customized solutions that match real-world needs with legal excellence.
               </p>
             </div>
@@ -55,7 +42,6 @@ export function IPAboutPage() {
           </div>
         </div>
       </section>
-
       {/* What Drives iVakil IP */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
@@ -68,7 +54,6 @@ export function IPAboutPage() {
           </p>
         </div>
       </section>
-
       {/* The iVakil IP Approach */}
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
@@ -101,9 +86,9 @@ export function IPAboutPage() {
                 description: "Clear updates, defined processes, and complete documentation keep clients in control and well-informed throughout the journey."
               }
             ].map((item, index) => (
-              <Card key={index} className="border-2 border-gray-100 hover:border-blue-200 hover:shadow-xl transition-all">
+              <Card key={index} className="border-2 border-orange-500 hover:border-orange-600 hover:shadow-xl transition-all transform hover:-translate-y-2">
                 <CardContent className="pt-6">
-                  <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-blue-600 to-blue-800 mb-4">
+                  <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-orange-500 to-red-600 mb-4">
                     <item.icon className="w-6 h-6 text-white" />
                   </div>
                   <h3 className="text-gray-900 mb-4 text-xl font-semibold">{item.title}</h3>
@@ -119,39 +104,29 @@ export function IPAboutPage() {
           </div>
         </div>
       </section>
-
       {/* Vision & Mission */}
       <section className="py-20 bg-gray-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid md:grid-cols-2 gap-12">
-          <Card className="border-2 border-blue-200 bg-white">
+          <Card className="border-2 border-orange-500 bg-white">
             <CardContent className="pt-8">
-              <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-blue-600 to-blue-800 mb-4">
+              <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-orange-500 to-red-600 mb-4">
                 <Heart className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-gray-900 mb-4 text-xl font-semibold">Our Vision</h2>
               <p className="text-gray-700 leading-relaxed"
-                style={{
-                  textAlign: "justify",
-                  textJustify: "inter-word",
-                  hyphens: "auto"
-                }}>
+                style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}>
                 To be the most trusted intellectual property consulting partner for innovation-led businesses by delivering solutions that combine legal strength, technical depth, and business intelligence.
               </p>
             </CardContent>
           </Card>
-
-          <Card className="border-2 border-blue-200 bg-white">
+          <Card className="border-2 border-orange-500 bg-white">
             <CardContent className="pt-8">
-              <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-blue-600 to-blue-800 mb-4">
+              <div className="inline-flex p-3 rounded-xl bg-gradient-to-br from-orange-500 to-red-600 mb-4">
                 <Target className="w-6 h-6 text-white" />
               </div>
               <h2 className="text-gray-900 mb-4 text-xl font-semibold">Our Mission</h2>
               <ul className="space-y-3 text-gray-700"
-                style={{
-                  textAlign: "justify",
-                  textJustify: "inter-word",
-                  hyphens: "auto"
-                }}>
+                style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}>
                 <li>To simplify IP for innovators and make protection accessible and valuable.</li>
                 <li>To help businesses convert ideas into assets with the right strategies.</li>
                 <li>To support compliance, growth, and market expansion through expert IP services.</li>
@@ -161,8 +136,6 @@ export function IPAboutPage() {
           </Card>
         </div>
       </section>
-
-      {/* Form Section and Footer will go here */}
     </div>
   );
 }

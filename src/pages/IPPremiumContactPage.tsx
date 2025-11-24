@@ -168,9 +168,8 @@ export function IPPremiumContactPage() {
                     <Button
                       type="submit"
                       size="lg"
-                      className={`w-full bg-gradient-to-r from-orange-500 to-red-600 text-white ${
-                        loading ? "opacity-60 cursor-not-allowed" : ""
-                      }`}
+                      className={`w-full bg-gradient-to-r from-orange-500 to-red-600 text-white ${loading ? "opacity-60 cursor-not-allowed" : ""
+                        }`}
                       disabled={loading}
                     >
                       {loading ? "Sending..." : <><Send className="mr-2 w-5 h-5" /> Send Message</>}
@@ -195,12 +194,18 @@ export function IPPremiumContactPage() {
                     </div>
                     <div>
                       <h3 className="text-gray-900 mb-2 text-lg">Office Address</h3>
-                      <p className="text-gray-700 leading-relaxed">
+                      <a
+                        href="https://www.google.com/maps/place/Radhe+Park/@20.9415476,72.9076886,17z/data=!3m1!4b1!4m6!3m5!1s0x3be0f721b4ef9159:0x3013659672a44c06!8m2!3d20.9415426!4d72.9102635!16s%2Fg%2F11m9pws8dr?entry=ttu&g_ep=EgoyMDI1MTExNy4wIKXMDSoASAFQAw%3D%3D"
+                        target="_blank"
+                        rel="noopener noreferrer"
+                        className="text-gray-600 hover:text-red-600 transition-colors text-lg"
+                      >
                         30B Haridarshan Villa, Radhe Park<br />
                         Navsari, Gujarat – 396445<br />
                         India
-                      </p>
+                      </a>
                     </div>
+
                   </CardContent>
                 </Card>
 
@@ -234,8 +239,46 @@ export function IPPremiumContactPage() {
                     </div>
                   </CardContent>
                 </Card>
+                <div className="mt-8 p-8 bg-gradient-to-br from-orange-50 to-red-50 rounded-2xl border-2 border-red-200">
+                  <h3 className="text-gray-900 mb-3 text-xl">Need Immediate Assistance?</h3>
+                  <p className="text-gray-700 mb-5">
+                    Book a free consultation call with our IP experts
+                  </p>
+                  <a
+                    href="tel:+919265275336"
+                    className="block"
+                  >
+                    <Button
+                      size="lg"
+                      className="w-full bg-gradient-to-r from-orange-500 to-red-600 
+               hover:from-orange-600 hover:to-red-700 
+               text-white text-base py-6 h-auto"
+                    >
+                      <Phone className="mr-2 w-5 h-5" />
+                      Schedule a Call
+                    </Button>
+                  </a>
+
+                </div>
               </div>
             </div>
+          </div>
+        </div>
+      </section>
+      {/* Map Section (Optional) */}
+      <section className="py-16 bg-gray-100">
+        <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
+          <div className="rounded-2xl overflow-hidden h-96">
+            <iframe
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3672.151278206668!2d72.90707431548603!3d20.941542635838374!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be0f721b4ef9159%3A0x3013659672a44c06!2sRadhe%20Park!5e0!3m2!1sen!2sin!4v1697712345678!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen={true}
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+              title="iVakil IP Location"
+            ></iframe>
           </div>
         </div>
       </section>

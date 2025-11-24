@@ -31,16 +31,13 @@ export function AnimalHealthcarePage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
 
           <div>
-            <h2 className="text-gray-900 mb-6 text-4xl font-bold">
+            <h2 className="text-gray-900 mb-6 text-4xl font-bold text-center">
               Importance of IP in Animal Healthcare
             </h2>
 
             <p className="text-gray-700 mb-4 leading-relaxed"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               In the animal healthcare sector, where innovation demands heavy R&D and regulatory compliance, intellectual property plays a crucial role in safeguarding investments. IP protection secures exclusive rights over veterinary formulations, delivery systems, and branding, while also enabling global licensing and market expansion. iVakil IP ensures each innovation is strategically protected for long-term success.
             </p>
           </div>

@@ -31,16 +31,13 @@ export function NutraceuticalsCosmeticsPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
 
           <div>
-            <h2 className="text-gray-900 mb-6 text-4xl font-bold">
+            <h2 className="text-gray-900 mb-6 text-4xl font-bold text-center">
               The Importance of IP in Nutraceuticals & Cosmetics
             </h2>
 
             <p className="text-gray-700 mb-4 leading-relaxed"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               In the nutraceutical and cosmetics industries, where innovation meets consumer trust, intellectual property plays a vital role in safeguarding business value. Formulations, active ingredients, packaging designs, and delivery methods are key differentiators that require protection to prevent imitation and loss of market share. Strong IP ensures exclusivity, strengthens brand identity, and enables safe expansion into competitive markets. It also opens opportunities for licensing, collaboration, and investment. With focused legal and technical expertise, iVakil IP helps protect every innovation from concept to commercialization.
             </p>
           </div>

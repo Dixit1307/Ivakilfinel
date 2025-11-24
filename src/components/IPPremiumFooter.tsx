@@ -12,16 +12,20 @@ export function IPPremiumFooter({ onNavigate }: IPPremiumFooterProps) {
         <div className="grid md:grid-cols-2 lg:grid-cols-4 gap-12 mb-12">
           {/* Company Info */}
           <div>
-            <div className="flex items-center gap-3 mb-6">
-              <div className="w-12 h-12 bg-gradient-to-br from-orange-500 to-red-600 rounded-lg flex items-center justify-center text-white">
-                <span className="text-base">iV</span>
-              </div>
-              <div className="flex flex-col items-start">
-                <span className="text-2xl text-white leading-tight">iVakil IP</span>
-                <span className="text-sm text-gray-400 leading-tight">Care For Innovation</span>
-              </div>
+            <div className="flex items-center mb-6">
+              <button onClick={() => onNavigate("home")} className="flex items-center">
+                <img
+                  src="/ivakillogo.png"
+                  alt="iVakil Logo"
+                  className="w-24 h-14 object-contain"
+                />
+              </button>
             </div>
-            <p className="text-gray-400 mb-7 leading-relaxed text-base">
+
+
+            <p className="text-[#1A1A1A]-400 mb-7 leading-relaxed text-base"
+            style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               We believe in creating IP-based business opportunities by converting investments into innovations and building robust IP assets.
             </p>
             <div className="flex gap-4">
@@ -119,12 +123,19 @@ export function IPPremiumFooter({ onNavigate }: IPPremiumFooterProps) {
             <ul className="space-y-4">
               <li className="flex items-start gap-3">
                 <MapPin className="w-5 h-5 text-orange-400 flex-shrink-0 mt-1" />
-                <span className="text-base">
+
+                <a
+                  href="https://www.google.com/maps/place/Radhe+Park/@20.9415476,72.9076886,17z/data=!3m1!4b1!4m6!3m5!1s0x3be0f721b4ef9159:0x3013659672a44c06!8m2!3d20.9415426!4d72.9102635!16s%2Fg%2F11m9pws8dr?entry=ttu"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="hover:text-orange-400 transition-colors text-base"
+                >
                   30B Haridarshan Villa, Radhe Park<br />
                   Navsari, Gujarat – 396445<br />
                   India
-                </span>
+                </a>
               </li>
+
               <li className="flex items-start gap-3">
                 <Phone className="w-5 h-5 text-orange-400 flex-shrink-0 mt-1" />
                 <a href="tel:+919265275336" className="hover:text-orange-400 transition-colors text-base">

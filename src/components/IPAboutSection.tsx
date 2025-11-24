@@ -36,29 +36,20 @@ export function IPAboutSection() {
           {/* LEFT CONTENT (FULL HEIGHT MATCHES IMAGE) */}
           <div className="flex flex-col justify-center h-full mr-2">
             <h2 className="text-gray-900 mb-6 text-4xl font-bold"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               A Trusted Name in IP Services in India
             </h2>
 
             <p className="text-gray-700 text-xl mb-6 leading-relaxed mr-2"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               At iVakil IP, we don't just protect ideas — we transform them into strategic assets.
             </p>
 
             <p className="text-gray-700 text-lg leading-relaxed mr-2"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               Our clients span diverse domains—from pharmaceuticals and biotechnology
               to software, mechanical engineering, electronics, and healthcare.
               Every IP portfolio we manage is crafted to enhance competitive edge,

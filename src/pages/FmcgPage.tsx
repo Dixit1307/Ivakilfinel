@@ -34,7 +34,7 @@ export function FMCGPage() {
                 <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
 
                     <div>
-                        <h2 className="text-gray-900 mb-6 text-4xl font-bold">
+                        <h2 className="text-gray-900 mb-6 text-4xl font-bold text-center">
                             The Role of IP in FMCG Success
                         </h2>
 

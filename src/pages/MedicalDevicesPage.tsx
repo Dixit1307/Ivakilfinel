@@ -31,16 +31,13 @@ export function MedicalDevicesPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
 
           <div>
-            <h2 className="text-gray-900 mb-6 text-4xl font-bold">
+            <h2 className="text-gray-900 mb-6 text-4xl font-bold text-center">
               Importance of IP in Medical Devices
             </h2>
 
             <p className="text-gray-700 mb-4 leading-relaxed"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               Medical devices involve complex innovations that require strong IP protection to secure exclusivity, prevent misuse, and support regulatory success. Proper IP enhances market position and investor confidence. iVakil IP delivers focused strategies to protect and grow these innovations.
             </p>
           </div>

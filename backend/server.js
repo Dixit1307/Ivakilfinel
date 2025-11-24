@@ -1,11 +1,13 @@
 const express = require("express");
 const nodemailer = require("nodemailer");
 const cors = require("cors");
+
 require("dotenv").config();
 
 const app = express();
 app.use(cors());
 app.use(express.json());
+
 
 // API Route: Send mail from contact form
 app.post("/send-mail", async (req, res) => {
@@ -28,18 +30,18 @@ app.post("/send-mail", async (req, res) => {
 
     // Mail options
     const mailOptions = {
-      from: email,
-      to: process.env.MAIL_USER,
+      from: "info@ivakilip.com",  // Always show "From"
+      to: "info@ivakilip.com",    // Main inbox
+      cc: "shwetatechnologie@gmail.com", // CC email
       subject: `New Contact Form Submission from ${firstName} ${lastName}`,
       html: `
-        <h3>New Contact Form Submission</h3>
-        <p><b>Name:</b> ${firstName} ${lastName}</p>
-        <p><b>Email:</b> ${email}</p>
-        <p><b>Phone:</b> ${phone}</p>
-        <p><b>Message:</b> ${message}</p>
-      `,
+    <h3>New Contact Form Submission</h3>
+    <p><b>Name:</b> ${firstName} ${lastName}</p>
+    <p><b>Email:</b> ${email}</p>
+    <p><b>Phone:</b> ${phone}</p>
+    <p><b>Message:</b> ${message}</p>
+  `,
     };
-
     // Send mail
     await transporter.sendMail(mailOptions);
 
@@ -47,6 +49,46 @@ app.post("/send-mail", async (req, res) => {
   } catch (error) {
     console.error("Mail Error:", error);
     res.status(500).json({ error: "Email sending failed" });
+  }
+});
+
+app.post("/consultation-mail", async (req, res) => {
+  const { name, email, number } = req.body;
+
+  if (!name || !email || !number) {
+    return res.status(400).json({ message: "All fields are required" });
+  }
+
+  try {
+    // Configure transporter
+    const transporter = nodemailer.createTransport({
+      service: "gmail",
+      auth: {
+        user: process.env.MAIL_USER, // info@ivakilp.com
+        pass: process.env.MAIL_PASS, // App Password
+      },
+    });
+
+    // Email content
+    const mailOptions = {
+      from: "info@ivakilp.com",
+      to: "info@ivakilp.com",
+      cc: "shwetatechnologie@gmail.com",
+      subject: "New Free Consultation Form Submission",
+      html: `
+        <h2>Free Consultation Request</h2>
+        <p><strong>Name:</strong> ${name}</p>
+        <p><strong>Email:</strong> ${email}</p>
+        <p><strong>Phone Number:</strong> ${number}</p>
+      `,
+    };
+
+    await transporter.sendMail(mailOptions);
+
+    res.status(200).json({ message: "Form submitted successfully!" });
+  } catch (error) {
+    console.error("Consultation Mail Error:", error);
+    res.status(500).json({ message: "Failed to send email" });
   }
 });
 

@@ -31,16 +31,13 @@ export function ChemicalIndustryPage() {
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 grid lg:grid-cols-2 gap-12 items-center">
 
           <div>
-            <h2 className="text-gray-900 mb-6 text-4xl font-bold">
+            <h2 className="text-gray-900 mb-6 text-4xl font-bold text-center">
               The Role of IP in the Chemical Industry
             </h2>
 
             <p className="text-gray-700 mb-4 leading-relaxed"
-              style={{
-                textAlign: "justify",
-                textJustify: "inter-word",
-                hyphens: "auto"
-              }}>
+              style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+>
               Developing a new chemical process or formulation requires years of research and significant investment. Without proper IP protection, these innovations are vulnerable to imitation, infringement, and commercial loss. Patents, trade secrets, and technical documentation help companies establish ownership, attract partners, and create market exclusivity. At iVakil IP, every step is taken to ensure that critical discoveries remain protected and enforceable in global markets.
             </p>
           </div>
