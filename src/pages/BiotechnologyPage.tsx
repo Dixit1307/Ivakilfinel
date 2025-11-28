@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Card, CardContent } from "../components/ui/card";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { Target, Heart, CheckCircle, Users, Clock, Shield } from "lucide-react";
@@ -6,6 +7,16 @@ import { Target, Heart, CheckCircle, Users, Clock, Shield } from "lucide-react";
 export function BiotechnologyPage() {
   return (
     <div className="min-h-screen bg-white">
+      {/* SEO Meta Tags */}
+      <Helmet>
+        <title>Biotech IP Services India – Protect Innovation | iVakil IP
+
+        </title>
+        <meta
+          name="description"
+          content="Secure your biotech innovations with iVakil IP. From patents and FTO searches to regulatory alignment and licensing, we help Indian biotech companies protect, commercialize, and maximize their IP globally."
+        />
+      </Helmet>
 
       {/* Hero Section */}
       <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-20">
@@ -32,14 +43,14 @@ export function BiotechnologyPage() {
             <h2 className="text-gray-900 mb-6 text-4xl font-bold text-center">Why IP Matters in Biotechnology</h2>
             <p className="text-gray-700 mb-4 leading-relaxed"
               style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
->
+            >
               Biotech R&D requires years of experimentation, regulatory approvals, and significant investment.
               Strong IP rights secure proprietary biological materials, genetic sequences, engineered organisms,
               therapeutic methods, diagnostic tools, and bio-processes.
             </p>
             <p className="text-gray-700 leading-relaxed"
               style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
->
+            >
               With well-structured patents and IP assets, biotech companies gain exclusivity, attract investors,
               secure licensing opportunities, and strengthen competitive advantage.
             </p>
@@ -72,7 +83,6 @@ export function BiotechnologyPage() {
       <section className="py-20 bg-white">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
           <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
-
             {[
               {
                 icon: CheckCircle,
@@ -120,7 +130,6 @@ export function BiotechnologyPage() {
                 </CardContent>
               </Card>
             ))}
-
           </div>
         </div>
       </section>
@@ -132,11 +141,8 @@ export function BiotechnologyPage() {
             <CardContent className="pt-8">
               <h2 className="text-gray-900 mb-6 text-4xl font-bold">Supporting a Wide Range of Biotech Segments</h2>
               <p className="text-gray-700 leading-relaxed"
-                style={{
-                  textAlign: "justify",
-                  textJustify: "inter-word",
-                  hyphens: "auto"
-                }}>
+                style={{ textAlign: "justify", textJustify: "inter-word", hyphens: "auto" }}
+              >
                 iVakil IP supports companies across medical biotechnology, agricultural biotechnology, industrial biotech,
                 and environmental biotechnology. Whether it’s a startup developing a novel gene therapy or an established
                 company creating biosimilars, customized IP strategies align with R&D goals and market requirements.
@@ -145,7 +151,8 @@ export function BiotechnologyPage() {
           </Card>
         </div>
       </section>
-
     </div>
   );
 }
+
+export default BiotechnologyPage;

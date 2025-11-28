@@ -120,7 +120,7 @@ export function IPCTABanner() {
                 onChange={() => setIsHuman(!isHuman)}
                 className="h-5 w-5 text-orange-600 focus:ring-orange-500 border-gray-300 rounded"
               />
-              <label htmlFor="human-check" className="ml-3 block text-gray-700 text-lg select-none">
+              <label htmlFor="human-check" className="ml-2 block text-gray-700 text-lg select-none">
                 I am not a robot
               </label>
             </div>

@@ -3,6 +3,7 @@ import { Card, CardContent } from "../components/ui/card";
 import { Button } from "../components/ui/button";
 import { Calendar, Clock, User, ArrowRight } from "lucide-react";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
+import { Helmet } from "react-helmet-async";
 
 export function IPPremiumBlogPage() {
   const blogPosts = [
@@ -64,13 +65,23 @@ export function IPPremiumBlogPage() {
 
   return (
     <div className="min-h-screen bg-white">
+
+      {/* ✅ SEO with react-helmet-async */}
+      <Helmet>
+        <title>IP Insights & Resources – Expert Guides on Patents & IP Strategy</title>
+        <meta
+          name="description"
+          content="Explore iVakil IP’s resources for expert guidance on patents, trademarks, design registration, and strategic intellectual property management for businesses and innovators."
+        />
+      </Helmet>
+
       {/* Hero Section */}
       <section className="py-20 bg-gradient-to-br from-orange-50 via-white to-red-50">
         <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
           <h1 className="text-gray-900 mb-4 text-4xl sm:text-5xl lg:text-6xl font-semibold">
             IP Insights & Resources
           </h1>
-          <p className="text-gray-700 text-2xl max-w-3xl mx-auto">
+          <p className="text-red-700 text-2xl max-w-3xl mx-auto">
             Expert guidance on intellectual property strategy, protection, and commercialization
           </p>
         </div>
@@ -97,16 +108,16 @@ export function IPPremiumBlogPage() {
                     </span>
                   </div>
                 </div>
-                
+
                 <CardContent className="p-6">
                   <h3 className="text-gray-900 mb-3 text-xl group-hover:text-red-700 transition-colors">
                     {post.title}
                   </h3>
-                  
+
                   <p className="text-gray-700 mb-6 leading-relaxed">
                     {post.excerpt}
                   </p>
-                  
+
                   <div className="flex items-center gap-4 text-sm text-gray-500 mb-4">
                     <div className="flex items-center gap-1">
                       <Calendar className="w-4 h-4" />
@@ -117,7 +128,7 @@ export function IPPremiumBlogPage() {
                       <span>{post.readTime}</span>
                     </div>
                   </div>
-                  
+
                   <div className="flex items-center justify-between pt-4 border-t border-gray-200">
                     <div className="flex items-center gap-2">
                       <User className="w-4 h-4 text-gray-400" />

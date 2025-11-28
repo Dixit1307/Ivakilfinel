@@ -1,4 +1,5 @@
 import React from "react";
+import { Helmet } from "react-helmet-async";
 import { Card, CardContent } from "../components/ui/card";
 import { ImageWithFallback } from "../components/figma/ImageWithFallback";
 import { Target, Heart, CheckCircle, Users, Clock, Shield } from "lucide-react";
@@ -6,6 +7,14 @@ import { Target, Heart, CheckCircle, Users, Clock, Shield } from "lucide-react";
 export function PharmaceuticalPage() {
     return (
         <div className="min-h-screen bg-white">
+            {/* SEO Meta Tags */}
+            <Helmet>
+                <title>Pharma IP Services India | iVakil IP | Protect Innovations</title>
+                <meta
+                    name="description"
+                    content="iVakil IP provides expert pharmaceutical IP services in India. From patent drafting and FTO searches to ANDA strategies, portfolio management, and licensing, we help pharma innovators protect, enforce, and maximize the value of their intellectual property globally."
+                />
+            </Helmet>
 
             {/* Hero Section */}
             <section className="relative bg-gradient-to-br from-blue-50 via-white to-blue-50 py-20">
@@ -154,3 +163,5 @@ export function PharmaceuticalPage() {
         </div>
     );
 }
+
+export default PharmaceuticalPage;
